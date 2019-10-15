@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 paypalrestsdk.configure({
     "mode": 'sandbox',
-    "client_id": 'Af_IM4sfZQcV5gH303yg5Hc8WQs_65zXMHX1bUL8h6QjMzkyNxyj8ikPiRdS9x1Li0zpUF4tczhSbuC3',
-    "client_secret": 'ELlwGd3RkndcX64o_AQEwmpsrOQNXoi7fehbqH2s7RyYhTxa14Q1gez8xEhOlSaMWAxzLoJSW3KTtS0S'
+    "client_id": '',
+    "client_secret": ''
 })
 
 @app.route('/billing-plans')
